@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "rules": {
+    "func-names": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/forbid-prop-types": "off"
+  }
 }
